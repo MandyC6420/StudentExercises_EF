@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<UserSecretsId>aspnet-StudentExercises_EF-CE0A02B5-9739-4F47-9AFD-425173ABE154</UserSecretsId>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Remove="Data\Migrations\20200910192821_updatedInstructorcohort.cs" />
+		<Compile Remove="Data\Migrations\20200910192821_updatedInstructorcohort.Designer.cs" />
+		<Compile Remove="Data\Migrations\20200910193304_all-correct-new-seed-data.cs" />
+		<Compile Remove="Data\Migrations\20200910193304_all-correct-new-seed-data.Designer.cs" />
+		<Compile Remove="Data\Migrations\20200911150205_CreatedSeedData.cs" />
+		<Compile Remove="Data\Migrations\20200911150205_CreatedSeedData.Designer.cs" />
+		<Compile Remove="Data\Migrations\20200913231954_addedGradestoStudents.cs" />
+		<Compile Remove="Data\Migrations\20200913231954_addedGradestoStudents.Designer.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.7" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.7" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.7" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.7" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.7" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.7" />
+		<PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+	</ItemGroup>
+
+</Project>
